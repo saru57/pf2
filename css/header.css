@@ -1,0 +1,44 @@
+header {
+ 
+  height: 100px;
+}
+header nav {
+ 
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+header nav h1 {
+ 
+}
+header nav h1 a {
+ 
+}
+header nav ul.gnb {
+ 
+}
+header nav ul.gnb li {
+ 
+}
+header nav ul.gnb li a {
+ 
+  margin: 49px;
+}
+header nav ul.gnb .last-child {
+ 
+}
+header nav ul.gnb .last-child a {
+ 
+}
+header nav ul.lang {
+  position: absolute;
+  top: 18px;
+  right: 0;
+}
+header nav ul.lang li {
+ 
+}
+header nav ul.lang li a {
+ 
+}
