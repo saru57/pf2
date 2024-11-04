@@ -1,0 +1,134 @@
+footer {
+
+}
+footer .wrap {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  row-gap: 20px;
+}
+footer .wrap ul.fnb {
+
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  display: flex;
+}
+footer .wrap ul.fnb::after{
+  content: "";
+  width: calc(100vw - 17px);
+  position: absolute;
+  left: calc((100vw - 17px - 1280px) / -2);
+  border-bottom: 1px solid;
+  bottom: 0;
+}
+footer .wrap ul.fnb li {
+
+  color: #3a466a;
+  line-height: 2;
+  display: block;
+  font-weight: 700;
+}
+footer .wrap ul.fnb li a {
+
+  color: #3a466a;
+  line-height: 2;
+  display: block;
+  padding: 0px 10px;
+}
+footer .wrap p.tel {
+
+  grid-column: 3;
+  grid-row: 1;
+  color: #00a6b1;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  align-self: center;
+}
+footer .wrap h1 {
+
+  grid-column: 1;
+  grid-row: 2 / span 2;
+  background-image: url(../img/iconbene.png);
+  background-repeat: no-repeat;
+  background-size: 120px;
+  background-position: center;
+}
+footer .wrap h1 a {
+
+  font-size: 0;
+}
+footer .wrap address {
+
+  grid-column: 2 / span 2;
+  grid-row: 2;
+  font-style: normal;
+  line-height: 2;
+  font-size: 12px;
+}
+footer .wrap address span {
+
+}
+footer .wrap ul.sns {
+
+  grid-column: 4;
+  grid-row: 2;
+  justify-self: end;
+  display: flex;
+}
+footer .wrap ul.sns li {
+
+}
+footer .wrap ul.sns li a {
+
+  margin: 0 10px;
+}
+footer .wrap ul.sns li:nth-child(1) a {
+background: url(../img/-i.png) no-repeat;
+height: 30px;
+width: 30px;
+font-size: 0;
+display: flex;
+align-items: center;
+}
+footer .wrap ul.sns li:nth-child(2) a {
+background: url(../img/-b.png) no-repeat ;
+  height: 30px;
+  width: 30px;
+  font-size: 0;
+  display: flex;
+align-items: center;
+}
+footer .wrap ul.sns li:nth-child(3) a {
+background: url(../img/-f.png) no-repeat ;
+  height: 30px;
+  width: 30px;
+  font-size: 0;
+  display: flex;
+align-items: center;
+}
+footer .wrap ul.sns li:nth-child(4) a {
+background: url(../img/-y.png) no-repeat ;
+  height: 30px;
+  width: 30px;
+  font-size: 0;
+  display: flex;
+  align-items: center;
+}
+footer .wrap ul.sns li:nth-child(5) a {
+background: url(../img/-a.png) no-repeat ;
+  height: 30px;
+  width: 30px;
+  font-size: 0;
+  display: flex;
+  align-items: center;
+}
+footer .wrap p.copyright {
+
+  grid-column: 2 / span 2;
+  grid-row: 3;
+  color: #b8b8b8;
+  font-weight: 300;
+  font-size: 12px;
+}
